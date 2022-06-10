@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "@react-three/a11y": "2.2.0-alpha.1",
+    "@react-three/drei": "^4.1.8",
+    "@react-three/fiber": "^6.0.13",
+    "@types/three": "0.127.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "0.127.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "name": "the-shibas",
+  "description": ""
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Inter";
+}
+
+canvas {
+  z-index: 8;
+}
+
+.modal {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 9;
+}
+
+.modal-content {
+  display: block;
+  padding: 32px;
+  background-color: white;
+  max-width: 60vw;
+  position: fixed;
+  z-index: 10;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.modal-content a {
+  color: black;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-content li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 0;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: initial;
+}
+
+.modal {
+}
